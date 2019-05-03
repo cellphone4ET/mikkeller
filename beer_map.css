@@ -1,4 +1,25 @@
+/* Typography */ 
+
+a {
+	color: #293896;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 500;
+}
+
 .finder_body {
-  color: red;
-  font-family: 'Helvetica', 'Hind', sans-serif;
+	font-family: 'Helvetica', 'Hind', sans-serif;
+}
+
+.panel-primary>.panel-heading {
+	background-color: #009edb;
+	border-color: #009edb;
+}
+
+/* Form Fields */
+
+.btn-primary {
+	background-color: #293896;
+	border-radius: 0;
 }
