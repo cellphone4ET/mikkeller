@@ -1,8 +1,6 @@
 /* Typography */ 
 
-a {
-	color: #293896;
-}
+a { color: #293896; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-weight: 500;
@@ -36,4 +34,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .text-muted {
 	color: #676767;
+}
+
+/* Responsive Adjustments */
+
+/* Mobile*/
+@media screen and (max-width: 426px) {
+	.container-fluid { margin-top: 60px; }
 }
