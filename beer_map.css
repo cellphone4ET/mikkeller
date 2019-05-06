@@ -41,4 +41,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /* Mobile*/
 @media screen and (max-width: 426px) {
 	.container-fluid { margin-top: 60px; }
+
+	#finder_map_paging { top: 110px; }
 }
